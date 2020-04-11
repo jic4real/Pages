@@ -100,7 +100,8 @@ body{
     position: relative;
     margin: auto;
     left: 2em;
-    width: 100%;
+    width: 80%;
+    border-width:90vw;
     max-width: 28rem;
     height: 75%;
     background-color: #fff;
@@ -111,6 +112,7 @@ body{
     text-size-adjust: 100%;
     line-height: 24px;
     box-sizing: border-box;
+    
 }
 
 header h1{
