@@ -8,7 +8,7 @@
     background-color:#062863;
     position: relative;
 	width: 100%;
-	height: 1200px;
+	height: 90%;
 	top: 0px;
 	left: 0px;
 	z-index: 2000;
@@ -16,21 +16,90 @@
 	flex-direction: column;
 	
 }
-.left-top-image{
-    background-image: url("https://res.cloudinary.com/startng/image/upload/v1586533446/Piggyvest%20design/leftbottom_gpqwoa.png");
-    background-position-x: left;
-    background-position-y: top;
-    opacity: 1;
+#wrapper:after, :before{
+    content: "";
+    display: block;
+    clear: both;
+    
 }
-.right-top-image{
-background-image: url("https://res.cloudinary.com/startng/image/upload/v1586533446/Piggyvest%20design/righttop_pa8ijw.png");
+.login{  
+    display: inline-block;
+    margin: 32px 0 0;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font: 12px sans-serif;
+    
+}
+/* .left-bottom-image{
+    background-repeat: no-repeat;
+    position: relative;
+    
+    
+    
+}
+.left-bottom{
+    position: absolute;
+    left: -4em;
+    width: 11em;
+    bottom: -76em;
+    
+    
 }
 .left-bottom-image{
-    background-image: url("https://res.cloudinary.com/startng/image/upload/v1586533446/Piggyvest%20design/leftbottom_gpqwoa.png");
+    content: "";
+    display: block;
+    clear: both;
+    
+} */
+
+
+
+.right-top-image{
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 35em;
+    
+    
 }
-.right-bottom-image{
-    background-image: url("https://res.cloudinary.com/startng/image/upload/v1586533444/Piggyvest%20design/rightbottom_aveh7w.png");
+.right-top{
+    position: absolute;
+    right: -6em;
+    width: 12em;
+    
 }
+.left-top-image{
+    background-repeat: no-repeat;
+    position: relative;
+    left: 4.5em;
+    top: -3.5em;
+    opacity: 0.5;
+    
+    
+    
+}
+.left-top{
+    position: absolute;
+    left: -6em;
+    width: 12em;
+    overflow: hidden;
+}
+
+
+/* .right-bottom-image{
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: -70em;
+    right: 15em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+}
+.right-bottom{
+    position: absolute;
+    width: 12em;
+    
+}   */
 .logo{
     position: relative;
     width: 191px;
@@ -40,7 +109,7 @@ background-image: url("https://res.cloudinary.com/startng/image/upload/v15865334
     border: 0px solid #e2e8f0;
     margin-bottom: 3rem;
 }
-.logo::after{
+.logo:after{
     content: "";
     display: block;
     clear: both;
@@ -60,8 +129,6 @@ background-image: url("https://res.cloudinary.com/startng/image/upload/v15865334
     line-height: 24px;
     box-sizing: border-box;
 }
-
-
 
 header h1{
     letter-spacing: normal;
@@ -167,14 +234,7 @@ select{
     display: block;
     clear: both;
 }
-a{
-    margin: 32px 0 0;
-    padding: 4px 20px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font: 12px sans-serif;
-}
+
 
 
 
