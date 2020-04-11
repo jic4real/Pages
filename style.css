@@ -7,7 +7,7 @@
 #wrapper{
     background-color:#062863;
     position: relative;
-	width: 100%;
+	width: 100vw;
 	height: 90%;
 	top: 0px;
 	left: 0px;
@@ -56,28 +56,26 @@
 
 
 
-.right-top-image{
+/* .right-top-image{
     background-repeat: no-repeat;
-    position: relative;
-    padding-left: 35em;
+    position: absolute;
+    right: 10em;
     
-    
+
 }
 .right-top{
     position: absolute;
-    right: -6em;
-    width: 12em;
+    width: 11em;
+    opacity: 0.9;
+    overflow: hidden;
     
-}
+} */
 .left-top-image{
     background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
     left: 4.5em;
     top: -3.5em;
-    opacity: 0.5;
-    
-    
-    
+    opacity: 0.5;  
 }
 .left-top{
     position: absolute;
